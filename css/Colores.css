@@ -1,0 +1,21 @@
+.colores-name{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box-color{
+    width: 250px;
+    height: 250px;
+    margin: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.color2{
+    background-color: coral;
+    
+}
