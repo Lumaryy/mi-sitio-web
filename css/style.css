@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(13, 101, 104);
+    background-color: rgb(129, 185, 187);
 }
 /* Elementos de clase */
 h1{
@@ -7,16 +7,19 @@ h1{
     color:rgb(255, 255, 255);
 }
 h2{
+    text-align: center;
     font: size 40px;
     font-family: 'Courier New', Courier, monospace;
 }
 h3{
-    color:lightpink
+    text-align: center;
+    color:rgb(95, 29, 39)
 }
 /* Elementos de clase */
 p{
+    text-align: center;
     font-size: 1.3em;
-    color: lightpink;
+    color: rgb(95, 29, 39);
     font-style:italic;
     font-weight: 900;
 }
@@ -26,14 +29,14 @@ p.font-verdana{
 }
 p.font-montserrat {
     font-size: 1.3em;
-    color: lightpink;
+    color: rgb(95, 29, 39);
     font-style:italic;
     font-weight: 900;
     font-family:'Montserrat', sans-serif;
 }
 p.font-bebasnuene{
     font-size: 1.3em;
-    color: lightpink;
+    color: rgb(95, 29, 39);
     font-style:italic;
     font-weight: 900;
     font-family: 'Bebas Neue', sans-serif;
