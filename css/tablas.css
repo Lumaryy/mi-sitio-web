@@ -1,27 +1,43 @@
 h1 {
     text-align: center;
+    font-family: sans-serif;
 }
 .table-box{
     display: flex;
     justify-content: center;
+    
 }
 table{
-    border-collapse: collapse;
     font-size: 2em;
-    background-color: rgb(244, 207, 212);
+    border-collapse: collapse;
     font-family: sans-serif;
+    border-style: none;
+    border: 0px 
 }
 th, td {
-    border: 1px solid rgb(24,24,24);
+    border: 0px;
     padding: 10px 15px;
+    border-style: none;
 }
-.col-style{
-    width: 150px;
+img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
 }
 .col-fam{
     background-color: rgb();
 }
-.img-check{
-    display: block;
-    margin: 0 auto;
+.verde-osc {
+    background-color: rgb(66, 128, 81);
+}
+.verde {
+    background-color: rgb(132, 173, 144);
+    width: 150px;
+}
+.gris {
+    background-color: rgb(143, 143, 143);
+}
+.blanco {
+    background-color: rgb(187, 190, 192);
 }
