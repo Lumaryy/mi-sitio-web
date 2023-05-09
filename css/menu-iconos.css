@@ -45,6 +45,6 @@ nav{
 .style-icon:hover , .style-icon-nuevo:hover {
     cursor: pointer;
     font-weight: 900;
-    border-bottom: 2px solid rgb(204, 183, 253) ;
-    color: rgb(204, 183, 253)
+    border-bottom: 2px solid rgb(16, 10, 31) ;
+    color: rgb(16, 10, 31)
 }
