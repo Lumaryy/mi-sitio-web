@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+    z-index: 1;
+    position: fixed;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.box-1{
+    background-color: darkcyan;
+    top:  50px;
+    left: 30px;
+}
+.box-2{
+    background-color: rgb(145, 110, 179);
+}
+.box-3{
+    background-color: rgb(68, 78, 187);
+} 
+

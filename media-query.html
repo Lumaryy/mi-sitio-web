@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decameron</title>
+    <title>Menu Media-Query</title>
     <link rel="stylesheet" href="css/media-query.css">
-</head>
+    
 </head>
 <body>
     <div class="img-background"></div>
-    <div class="barra-nav"></div>
-     <nav class="main-nav">
-        <img class="decameron" src="img/decameron.png" alt="decameron">
-        <ul class="main-menu">
-            <li><a class="item-menu">inicio</a></li>
-            <li><a class="item-menu">Promociones</a></li>
-            <li><a class="item-menu">Destinos</a></li>
-            <li><a class="item-menu">Todo incluido</a></li>
-            <li><a class="item-menu">Tours</a></li>
-            <li><a class="item-menu">eventos</a></li>
-        </ul>
+    <div class="barra-nav">
+    <nav class="main-nav">
+      <span id="logoHamburguer" class="logo-hamburguer">&#9776</span>
+       <img class="img-logo" src="img/decameron.png" alt="">
+      <ul id="mainMenu" class="main-menu">
+        <li class="item-menu"><a href="#">Inicio</a></li>
+        <li class="item-menu"><a href="#">Promociones</a></li>
+        <li class="item-menu"><a href="#">Destinos</a></li>
+        <li class="item-menu"><a href="#">Todo incluido </a></li>
+        <li class="item-menu"><a href="#">Tours</a></li>
+        <li class="item-menu"><a href="#">Eventos</a></li>
+      </ul>
     </nav>
+</div>
+<script src="js/media-query.js"></script>
 </body>
 </html>
