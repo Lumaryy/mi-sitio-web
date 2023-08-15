@@ -1,0 +1,209 @@
+*{
+    font-family: sans-serif;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        margin-top: 150px;
+    }
+    
+    
+    .main-box{
+        width: 900px;
+        margin: 0 auto 0 auto;
+        gap: 20px;
+        border: 5px solid rgb(64, 64, 64);
+    }
+    .box{
+        width: 100%;
+        height: 120px;
+        background-color: dodgerblue;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8em;
+        
+    }    
+    .main-box-1{
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px ;
+    }
+    .main-box-2{
+        display: grid;
+        grid-template-columns: 1fr 150px 150px 1fr;
+    }
+    .main-box-3{
+        display: grid;
+        grid-template-columns: 150px 1fr  150px ;
+        grid-template-rows: 100px 300px 100px 50px ;
+    }
+    .box3-1{
+        width: 100%;
+        height: 100%;
+        background-color: dodgerblue;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8em;
+    }
+    .main-box-4{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    
+    }
+    .box4-1{
+        background-color: goldenrod;
+        grid-column-start: 1;
+        grid-column-end: 5;
+       
+    }
+    .box4-2{
+        background-color: darkcyan;
+        grid-row-start: 2;
+        grid-row-end: 6;
+        height: 100%;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8em;
+    }
+    .main-box-5{
+        width: 970px;
+        margin: 0 auto 0 auto;
+        gap: 20px;
+        border: 2px solid black;
+        border-radius: 30px;
+        display: grid;
+        grid-template-columns: repeat(7, 120px);
+    
+        padding: 15px 15px 15px 15px;
+        
+    
+    }
+    .nombre-mes{
+        grid-column-start: 1;
+        grid-column-end: 8;
+        text-align: center;
+        font-size: 80px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    .dia1{
+        grid-column-start: 6;
+    }
+    .dia-arriba{
+        font-size: 0.6em;
+        position: relative;
+        top: -35px;
+        left: 45px;
+        background-color:rgb(243, 168, 152); ;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .dia-arribaa{
+        font-size: 0.6em;
+        position: relative;
+        top: -35px;
+        left: 45px;
+        background-color:rgb(18, 162, 164);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .dia-mes-navidad{
+        font-size: 0.6em;
+        position: relative;
+        top: -35px;
+        left: 95px;
+        width: 60px;
+        height: 30px;
+        
+        
+       
+        background-color:rgb(18, 162, 164);
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .dia-mes-navidadd{
+        font-size: 0.6em;
+        position: relative;
+        top: -35px;
+        left: 78px;
+    
+    }
+    .texto-dia{
+        font-size: 0.7em;
+        position: relative;
+        top: 15px;
+        left: -13px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    .boxe{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 240, 238);
+        border: 3px solid rgb(243, 168, 152);
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8em;
+    }
+    .boxi{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(90, 219, 221);
+        border: 3px solid rgb(18, 162, 164);
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8em;
+    }
+    .dia-mes{
+        background-color: rgb(214, 143, 127);
+        height: 40px;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    
+    }
+    .diaa-mes{
+        background-color: rgb(66, 130, 225);
+        height: 40px;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    
+    }
+    .icono{
+       
+        position: relative;
+        top: 15px;
+        left: -8px;
+        font-size: 19px;
+    }

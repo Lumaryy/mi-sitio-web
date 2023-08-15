@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+   
+    width: 100%;
+    height: 120px;
+    margin-top: 30px;
+    gap: 20px;
+    display: grid;
+    grid-template: "  logo    main-menu "  /
+                    150px    minmax(700px, 1fr)  ; 
+}
+body{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template: "empy-left    main-page  empy-right"/
+                     minmax(50px, 1fr)         minmax(700px, 1500px)         minmax(50px, 1fr) ; 
+}
+.main-page{
+    grid-area: main-page;
+}
+.logo{
+    grid-area: logo;
+    background-color: rgb(222, 8, 1);
+    height: 120px;
+   
+    
+}
+.main-menu{
+    grid-area: main-menu;
+    background-color: goldenrod;
+    height: 120px;
+}
+.main-content{
+   margin-top: 30px;
+    display: grid;
+    margin-bottom: 30px;
+    gap: 80px;
+    grid-template: "main-img main-img main-img"600px
+                   "article1 article2 article3"500px
+                   "article4 article5 article6"500px;
+    
+    
+    
+}
+.main-img{
+    
+    grid-area: main-img;
+    background-color: dodgerblue;
+ 
+}
+.text{
+    color: white;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.article1{
+    grid-area: article1;
+   
+}
+.article2{
+    grid-area: article2;
+    
+}
+.article3{
+    grid-area: article3;
+
+  
+}
+.article4{
+    grid-area: article4;
+   
+}
+.article5{
+    grid-area: article5;
+    
+}
+.article6{
+    grid-area: article6;
+}
+.img-article{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(40, 39, 39);
+}
+.style-txt-article{
+text-align: justify;
+line-height: 1.3em;
+color: rgb(39, 38, 38);
+font-size: 1.3em;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1820px){
+    .main-content{
+        width: 83%;
+        grid-template: 
+                        "main-img main-img" 500px
+                        "article1    article2" auto
+                        "article3 article4" auto
+                        "article5 article6 "auto;
+        
+                      
+    }
+    header{
+   
+        width: 83%;
+      
+        grid-template: "  logo    main-menu "  /
+                        145px    minmax(300px, 1fr)  ; 
+    }
+
+}
+@media only screen and (max-width: 640px){
+    .main-content{
+        width: 83%;
+        grid-template: 
+                        "main-img " 350px
+                        "article1 "  auto 
+                        "article2" auto
+                        "article3" auto
+                        "article4" auto
+                        "article5"auto
+                         "article6 "auto;
+        
+                      
+    }
+    header{
+   
+        width: 83%;
+      
+        grid-template: "  logo    main-menu "  /
+                        125px    minmax(300px, 1fr)  ; 
+    }
+
+}
