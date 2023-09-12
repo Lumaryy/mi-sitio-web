@@ -3,30 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Starbucks</title>
     <link rel="stylesheet" href="css/starbucks.css">
+    <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="starbucks/logo.png" alt="">
+        <div class="main-logo">
+            <img class="img-logo" src="starbucks/logo.png" alt="">
         </div>
-        <nav>
-                <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">menu</a></li>
-                    <li><a href="#">What's New</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-        </nav>
+        <div class="box-main-menu">
+            <ul class="main-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </header>
     <div class="main-content">
-        <div class="circle"></div>
+        <div class="product-text">
+            <h1>It's not just Coffee<br>It's <span class="title-color">Starbucks</span></h1>
+            <h3 class="description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem enim error cum officiis maiores eveniet consectetur velit reiciendis nesciunt. Atque dolore incidunt repellendus saepe quis. Porro vitae dolorem est non?</h3>
+            <input type="button" class="button-learn" value="LEARN MORE">
+        </div>
+        <div class="product-img">
+            <img id="mainImg" class="img-logo" src="starbucks/img1.png" alt="">
+        </div>
         <div class="social-media">
-            <img src="starbucks/facebook.png" alt="">
-            <img src="starbucks/twitter.png" alt="">
-            <img src="starbucks/instagram.png" alt="">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="style-img-mini fa-brands fa-twitter"></i>
+            <i class="style-img-mini fa-brands fa-instagram"></i>
         </div>
     </div>
+    <footer>
+        <img id="iceGreen" class="style-img-mini" src="starbucks/thumb1.png" alt="">
+        <img id="iceRose" class="style-img-mini" src="starbucks/thumb2.png" alt="">
+        <img id="icePink" class="style-img-mini" src="starbucks/thumb3.png" alt="">
+    </footer>
+    <div id="mainCircle" class="main-circle main-circle-green"></div>
+    <script src="js/starbucks.js"></script>
 </body>
 </html>
