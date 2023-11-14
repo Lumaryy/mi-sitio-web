@@ -3,28 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mercadolibre</title>
     <link rel="stylesheet" href="css/mercadolibre.css">
     <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
-
     <header>
-        <img src="img/images.png" alt="">
-        <input type="search"  class="input">
-        <span class="carrito"><i class="fa-solid fa-cart-shopping"></i></div>
-        <div class="menu"><i class="fa-solid fa-bars"></i></div>
-    </header>
-    <div id="maincontent" class="main-content">
-        <div class="box-productos" id="boxProductos">
-        
+        <div class="logo">
+            <img class="img-logo" src="img/images.png" alt="">
         </div>
-    </div>
-    <div>
-        <label class="texto-info-producto" > <span id="valorUnitarioProducto"></span> </label>
-    </div>
-    
+        <div class="box-input-busqueda">
+            <input id="inputBusqueda" class="input-busqueda" type="text" name="" id="">
+        </div>
+        <div class="icon-header hamburguer-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="icon-header carrito">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </header>
+        
+            <div class="filtros filtros-hidden">
+               <div class="filtro">
+                <div class="filtro modelo">Modelo</div>
+                <div class="filtro-anyo">Año</div>
+                <dic class="filtro-ubicacion">Ubicacion</dic>
+                <div class="filtro-condicion">Condicion</div>
+                <div class="filtro-precio">Precio</div>
+               </div>
+            </div>
+        </div>
+        <div id="boxProductos" class="box-productos"></div>
+
     <script src="js/mercadolibre.js"></script>
-    
 </body>
 </html>
