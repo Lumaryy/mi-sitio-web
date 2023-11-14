@@ -1,46 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
 body {
-    background-color: rgb(129, 185, 187);
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    cursor: url('../img/cursor.png'), auto;
 }
-/* Elementos de clase */
-h1{
+
+.botonInicio {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.botonDescripcion {
+
+    top: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(251, 228, 216);
+    line-height: 0;
+}
+
+.imgLuisa {
+    max-width: 20%;
+    border-radius: 50%;
+}
+
+.title-inicio {
+    font-size: 5rem;
+}
+.text-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair Sans', 'Poppins', sans-serif;
+    color: rgb(82, 43, 91);
     text-align: center;
-    color:rgb(255, 255, 255);
+    margin-top: 50px;
 }
-h2{
+
+
+.descripcion {
+    background-color: rgb(251, 228, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.descripcion img {
+    max-width: 20%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.title-descricion {
+    font-size: 2rem;
+}
+
+.info-yo,
+.adso {
+    font-size: 1.5rem;
+}
+
+.contenido {
     text-align: center;
-    font: size 40px;
-    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    height: 70vh;
 }
-h3{
-    text-align: center;
-    color:rgb(95, 29, 39)
+
+.fuentes li,
+ul li {
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+    font-size: 1.2rem;
 }
-/* Elementos de clase */
-p{
-    text-align: center;
-    font-size: 1.3em;
-    color: rgb(95, 29, 39);
-    font-style:italic;
-    font-weight: 900;
+
+.fuentes a,
+ul a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s, background-color 0.3s;
 }
-/* clases atadas a un elemento */
-p.font-verdana{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.fuentes a:hover,
+ul a:hover {
+    color: rgb(204, 204, 253);
+    background-color: #f2f2f2;
+    cursor: url('../img/corazon.png'), auto;
+    transition: color 0.3s, background-color 0.3s, cursor 0.3s;
 }
-p.font-montserrat {
-    font-size: 1.3em;
-    color: rgb(95, 29, 39);
-    font-style:italic;
-    font-weight: 900;
-    font-family:'Montserrat', sans-serif;
-}
-p.font-bebasnuene{
-    font-size: 1.3em;
-    color: rgb(95, 29, 39);
-    font-style:italic;
-    font-weight: 900;
-    font-family: 'Bebas Neue', sans-serif;
-}
+
 /* montserrat-700 - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
