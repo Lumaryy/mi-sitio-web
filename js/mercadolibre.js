@@ -30,7 +30,7 @@ window.addEventListener("keydown", function(event) {
     if (event.key == "Enter") {
         boxProductos.innerHTML = "";
         let inputUser = busqueda.toLowerCase();
-        if (inputUser == "xtz") {
+        if (inputUser == "Mazda") {
             cargarVehiculo(auto1);
             cargarVehiculo(auto2);
         }  
@@ -141,9 +141,6 @@ boxToggle.addEventListener("click", () =>{
         buttonToggle.classList.add("button-toggle-off");
     }
 });
-
-
-
 
 
 
